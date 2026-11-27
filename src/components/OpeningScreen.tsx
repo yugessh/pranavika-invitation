@@ -5,7 +5,7 @@ import { INVITATION_CONTENT } from '../data/invitationContent';
 import { FloralCorner } from './FloralCorner';
 import { OrnamentalDivider } from './OrnamentalDivider';
 import { Sparkles, MailOpen } from 'lucide-react';
-import pranavikaImg from '../assets/images/pranavika-hero.jpg';
+import pranavikaImg from '../assets/images/pranavika-new.jpeg';
 
 interface OpeningScreenProps {
   onOpen: () => void;
@@ -56,9 +56,8 @@ export const OpeningScreen: React.FC<OpeningScreenProps> = ({ onOpen, isOpen }) 
             initial={{ scale: 0.92, opacity: 0, y: 20 }}
             animate={{ scale: 1, opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
-            className={`relative w-full max-w-xl mx-auto my-auto rounded-3xl bg-warm-white/95 p-4 sm:p-8 md:p-10 shadow-royal ornate-border backdrop-blur-md transition-all duration-700 ${
-              isOpening ? 'scale-95 opacity-50' : ''
-            }`}
+            className={`relative w-full max-w-xl mx-auto my-auto rounded-3xl bg-warm-white/95 p-4 sm:p-8 md:p-10 shadow-royal ornate-border backdrop-blur-md transition-all duration-700 ${isOpening ? 'scale-95 opacity-50' : ''
+              }`}
           >
             {/* Four Floral Ornate Corners */}
             <FloralCorner position="top-left" className="absolute top-1 left-1 sm:top-2 sm:left-2 max-w-[50px] max-h-[50px] sm:max-w-none sm:max-h-none" size={70} />

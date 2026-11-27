@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Camera, RotateCcw, Maximize2, X, Sparkles, Heart } from 'lucide-react';
-import defaultHeroImg from '../assets/images/pranavika-hero.jpg';
+import defaultHeroImg from '../assets/images/pranavika-new.jpeg';
 
 interface HeroPortraitProps {
   className?: string;
